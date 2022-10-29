@@ -1,0 +1,16 @@
+.input-container {
+    display: flex;
+    width: 700px;
+    height: 60px;
+    margin: 40px auto; 
+}
+
+.input-container .input-field {
+    height: 40px;
+    width: 100%;
+}
+
+.input-container .search-btn {
+    height: 40px;
+    width: 100px;
+}
