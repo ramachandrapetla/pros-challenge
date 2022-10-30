@@ -10,3 +10,9 @@
     width: 100%;
     height: 200px;
 }
+
+.results-item-container {
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}

@@ -1,0 +1,61 @@
+.registration-form-controller {
+    width: 550px;
+    margin: auto;
+
+}
+
+.registration-form-controller h2 {
+    text-align: center;
+}
+.registration-form-controller form {
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 500px;
+    justify-content: center;
+}
+.form-control * {
+    margin-bottom: 10px;
+}
+
+.form-control input[type="text"], 
+.form-control input[type="password"], 
+.form-control .form-register-btn {
+    padding: 8px 4px;
+    width: 100%;
+}
+
+.form-control .form-register-btn {
+    background-color: rgba(20, 20, 255, 0.7);
+    color: #ffffff;
+}
+.form-control input[type="radio"] {
+    display: inline-block;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    margin: auto;
+}
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container form * {
+    font-size: 14px;
+    padding: 12px 5px;
+    margin-bottom: 15px;
+}
+
+.login-container button {
+    background:rgba(20, 20, 255, 0.7);
+    color: #ffffff;
+}
