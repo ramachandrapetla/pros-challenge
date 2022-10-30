@@ -7,6 +7,7 @@ const ResultItem = ({data}) => {
             <h2>{data.offer.store_name}</h2>
             <h2>{data.product_title}</h2>
             <p>{data.offer.price}</p>
+            <a href={data.offer.offer_page_url}>Buy Here</a>
         </div>
     )
 
